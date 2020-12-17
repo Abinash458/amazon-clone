@@ -17,7 +17,7 @@ const Checkout = () => {
 
                 <div>
                     <h2 className="checkout__title">
-                        Your Shopping Basket
+                        Shopping Basket
                     </h2>
                 </div>
             </div>
