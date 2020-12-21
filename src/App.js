@@ -9,6 +9,7 @@ import { auth } from './firebase';
 import Checkout from './Pages/Checkout/Checkout';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
+import Payment from './Pages/Payment/Payment';
 
 function App() {
 
@@ -48,6 +49,10 @@ function App() {
         <Route path="/checkout">
           <Header />
           <Checkout />
+        </Route>
+        <Route path="/payment">
+          <Header />
+          <Payment />
         </Route>
         <Route path="/">
           <Header />
